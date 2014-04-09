@@ -15,8 +15,15 @@
 %\oddsidemargin  5mm
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[t]
+\begin{center}
+\includegraphics[scale=0.1]{imagen1.eps}
+\end{center}
+\end{figure}
 
 \begin{document}
+
+
 \title{El número $\pi$}
 \author{ David Tomás Montesdeoca Flores \\ Práctica de Laboratorio \#10}
 \date{9 de abril de 2014}
@@ -81,6 +88,8 @@ Año   &  Nombre       &  Ordenador &  Número de decimales \\ \hline
 
 
 
+
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Algunas Fórmulas que contienen el numero \pi}
 \subsection{Geometría} 
@@ -109,20 +118,21 @@ Año   &  Nombre       &  Ordenador &  Número de decimales \\ \hline
     Fórmula de Stirling.
   \item
     Método de Montecarlo
-\end {enumerate}
+\end{enumerate}
 \subsection{Cálculo} 
 \begin{enumerate}
   \item
-   Área limitada por la astroide.\footnote{Tipo de curva con cuatro vértices.}
+   Área limitada por la astroide: $\frac{3}{8}\pi a^2 $.\footnote{Tipo de curva con cuatro vértices.}
+
   \item
-    Área de la región comprendida por el eje X y un arco de la cicloide: $3 \pi a^2.$\footnote {curva generada por un punto perteneciente a una circunferencia generatriz al rodar sobre una línea recta directriz, sin deslizarse}
-\end {enumerate}
+    Área de la región comprendida por el eje X y un arco de la cicloide: $3 \pi a^2.$\footnote {curva generada por un punto perteneciente a una circunferencia generatriz al rodar sobre una línea recta directriz, sin deslizarse.}
+\end{enumerate}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Bibliografía}
 \begin{itemize}
   \bibitem
-     es.wikipedia.org/wiki/Número\_\pi \hline
+  es.wikipedia.org/wiki/Número\_\pi \hline 
   \bibitem
      www.juegosdelogica.com/numero\_\pi.htm
 \end{itemize}
-\end {document}
+\end{document}

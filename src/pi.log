@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.2)  9 APR 2014 14:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.12)  9 APR 2014 19:49
 entering extended mode
  %&-line parsing enabled.
 **pi.tex
@@ -245,32 +245,66 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \bslash@cnt=\count117
 \wrong@table=\toks33
 \c@CodelineNo=\count118
-) (./pi.aux)
+)
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{figure}[t]
+                      
+? 
+
+LaTeX Warning: File `src/imagen1.eps' not found on input line 20.
+
+
+! LaTeX Error: File `src/imagen1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \includegraphics[scale=0.1]{src/imagen1.eps}
+                                                 
+? 
+
+! LaTeX Error: Cannot determine size of graphic in src/imagen1.eps (no Bounding
+Box).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \includegraphics[scale=0.1]{src/imagen1.eps}
+                                                 
+? 
+File: src/imagen1.eps Graphic file (type eps)
+<src/imagen1.eps> (./pi.aux)
 \openout1 = `pi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 24.
-
-(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 31.
+ (/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -278,88 +312,89 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.47 \section{Historia del Cálculo del número \pi}
+l.54 \section{Historia del Cálculo del número \pi}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.47 \section{Historia del Cálculo del número \pi}
+l.54 \section{Historia del Cálculo del número \pi}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.85 ...unas Fórmulas que contienen el numero \pi}
+l.94 ...unas Fórmulas que contienen el numero \pi}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.85 ...unas Fórmulas que contienen el numero \pi}
+l.94 ...unas Fórmulas que contienen el numero \pi}
                                                   
 ? 
 [1
+Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ! Undefined control sequence.
 <argument> \@listctr 
                      
-l.124      e
-            s.wikipedia.org/wiki/Número\_\pi \hline
+l.134   e
+         s.wikipedia.org/wiki/Número\_\pi \hline
 ? 
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.124      e
-            s.wikipedia.org/wiki/Número\_\pi \hline
+l.134   e
+         s.wikipedia.org/wiki/Número\_\pi \hline
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.124      es.wikipedia.org/wiki/Número\_\pi
-                                             \hline
+l.134   es.wikipedia.org/wiki/Número\_\pi
+                                          \hline
 ? 
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.124 ... es.wikipedia.org/wiki/Número\_\pi \hline
-                                                  
+l.134   es.wikipedia.org/wiki/Número\_\pi \hline
+                                                
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.124 ... es.wikipedia.org/wiki/Número\_\pi \hline
-                                                  
+l.134   es.wikipedia.org/wiki/Número\_\pi \hline
+                                                
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.124 ... es.wikipedia.org/wiki/Número\_\pi \hline
-                                                  
+l.134   es.wikipedia.org/wiki/Número\_\pi \hline
+                                                
 ? 
 ! Extra }, or forgotten \endgroup.
 \@xhline ... -\arrayrulewidth \fi \ifnum 0=`{\fi }
                                                   
-l.125   \bibitem
+l.135   \bibitem
                 
 ? 
 ! Undefined control sequence.
 <argument> \@listctr 
                      
-l.126      w
+l.136      w
             ww.juegosdelogica.com/numero\_\pi.htm
 ? 
 ! You can't use `\relax' after \the.
 <recently read> \c@ 
                     
-l.126      w
+l.136      w
             ww.juegosdelogica.com/numero\_\pi.htm
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.126      www.juegosdelogica.com/numero\_\pi
+l.136      www.juegosdelogica.com/numero\_\pi
                                              .htm
 ? 
 
@@ -369,7 +404,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{itemize}
+l.137 \end{itemize}
                    
 ? 
 
@@ -379,7 +414,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{itemize}
+l.137 \end{itemize}
                    
 ? 
 
@@ -389,41 +424,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 \end{itemize}
+l.137 \end{itemize}
                    
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.127 \end{itemize}
+l.137 \end{itemize}
                    
 ? 
-[2] (./pi.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[2] (./pi.aux) ) 
 Here is how much of TeX's memory you used:
- 2568 strings out of 495061
- 30738 string characters out of 1182622
- 90769 words of memory out of 3000000
- 5714 multiletter control sequences out of 15000+50000
+ 2572 strings out of 495061
+ 30772 string characters out of 1182621
+ 90873 words of memory out of 3000000
+ 5715 multiletter control sequences out of 15000+50000
  16496 words of font info for 70 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 32i,8n,27p,257b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on pi.pdf (2 pages, 152441 bytes).
+ 32i,8n,27p,258b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb>
+Output written on pi.pdf (2 pages, 152947 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
